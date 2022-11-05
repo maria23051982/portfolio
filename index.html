@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+  <div id="principal" class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>*** M <span>J </span>V ***</h2>
+        </div>
+          <ul class="menu" id="menu">
+            <li ><a class="active" href="#">Home</a></li>
+            <li><a href="#about">Acerca de mi</a></li>
+            <li><a href="#trabajos">Trabajos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>  
+          <div class="toggle-menu">
+            <i class="fas fa-bars" id="toggle__open"></i>
+            <i class="fas fa-close" id="toggle__close"></i>
+          </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info__content">
+        <span class="info__content__subtitulo">Frontend Developer</span>
+        <h1>Mi nombre es <span>Maria José Verdaguer</span> y soy programadora</h1>
+        <p class="info__parrafo">Soy estudiante de la carrera de contador publico en la Universidad Nacional de Quilmes y estoy cursando el programa <span>ONE</span> de <span>ALURA LATAM</span></p>
+        <a download href="#"><button class="descargar__cv" download="">Descargar CV</button></a>
+      </div>
+      <img class="foto__presentacion" src="./img/foto__presentacion.png" alt="Foto personal">
+    </main>
+  </div>
+
+  <div id="about" class="about">
+    <img src="./img/about.png" alt="Acerca de mi">
+    <div class="about__info">
+      <div>
+        <h2>Acerca de mi</h2>
+        <div class="divider"></div>
+        <a href="#principal"><button class="descargar__cv">Volver</button></a>
+      </div>
+      <p>Mi nombre es Maria José, tengo 40 años y vivo en el sur de la ciudad de Mar del Plata.
+        Actualmente estoy estudiando en la carrera de Contador Público Nacional en la Universidad Nacional de Quilmes en su modalidad virtual, realizo trabajos temporarios en hotelería y tengo como hobbies los trabajos de arreglos como las instalaciones eléctricas.
+      </p>
+      <p>En paralelo soy deportista amateur en atletismo en la especialidad ultra maratones y marcha atlética, pasatiempo que me fortalece tanto física como mentalmente. </p>
+    </div>
+  </div>
+  </div>
+
+  <div id="trabajos" class="portafolio">
+    <div class="portafolio__headings">
+      <h2>Mis trabajos</h2>
+      <div class="divider"></div>
+      <a href="#principal"><button class="descargar__cv">Volver</button></a>
+    </div>
+
+    <div class="contenedor">
+      <div class="card">
+        <div class="card__img"></div>
+        <div class="card__titulo">Descripciónde Proyectos</div>
+        <div class="card__proyecto__links">
+          <a href="https://github.com/maria23051982/encriptador_texto" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://maria23051982.github.io/encriptador_texto/"><i class="fas fa-globe"></i></a>
+          <a href=""><i class="fas fa-download"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img"></div>
+        <div class="card__titulo">Descripción de Proyectos</div>
+        <div class="card__proyecto__links">
+          <a href="https://github.com/maria23051982/trabajo-formularios-alura" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://maria23051982.github.io/trabajo-formularios-alura/"><i class="fas fa-globe"></i></a>
+          <a href=""><i class="fas fa-download"></i></a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card__img"></div>
+        <div class="card__titulo">Descripción de Proyectos</div>
+        <div class="card__proyecto__links">
+          <a href="https://gitgub.com" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fas fa-globe"></i></a>
+          <a href=""><i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div id="contacto" class="contact__section">
+    <div class="contact__heading">
+      <h2>Contacto</h2>
+      <a href="#principal"><button class="descargar__cv">Volver</button></a>
+    </div>
+    <div class="container__contact">
+      <div class="contact__form">
+        <h4>Envia un mensaje</h4>
+        <form class="form__control">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Escriba su mensaje aquí ..."></textarea>
+          <button action="mailto:mariaverdaguer17@gmail.com" type="submit" method="get" class="btn__submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<script src="/css/menus.js"></script>
+</body>
+</html>
